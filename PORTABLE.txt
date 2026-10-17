@@ -1,0 +1,31 @@
+RICK MUSIC 0.2 — EDICIÓN PORTÁTIL SIN INSTALACIÓN
+
+1. Descomprime Rick-Music-Portable.zip en una carpeta de tu Mac.
+2. Abre RickMusicWeb.html en tu navegador.
+3. Usa Abrir para cargar una partitura. Guarda tu trabajo con Guardar y conserva
+   los documentos .rickmusic fuera de la memoria del navegador.
+
+La interfaz, icono, código y licencias están incluidos en el HTML. Funciona sin
+conexión y no necesita instalar una aplicación nativa, Node ni herramientas de
+ingeniería inversa. El navegador puede pedir autorización para guardar archivos
+o recibir MIDI, según sus propias funciones y configuración.
+
+La edición web usa sonido sintetizado simplificado. HyperScribe/Transcripción
+admite A–G; un teclado MIDI externo requiere Web MIDI en el navegador. Para
+imprimir o generar PDF usa Imprimir / PDF y el diálogo del navegador.
+MP3 exporta audio estéreo sintetizado a 128–320 kb/s, hasta 30 minutos más
+dos segundos de cola. El botón Cancelar detiene la exportación en curso.
+
+MUSX: abre archivos compatibles y conserva sus bytes originales. Sólo puede
+exportar MUSX si no se ha modificado el contenido importado. Las partituras
+nuevas o editadas deben guardarse .rickmusic o exportarse MusicXML. La escritura
+MUSX experimental no está validada en Finale y no es una exportación disponible.
+
+MANUAL.txt explica el funcionamiento y sus límites; FUNCIONES.txt enumera los
+36 accesos de herramientas y su alcance. Ejemplos contiene partituras de prueba.
+TERCEROS.txt recoge las licencias; también se incluyen dentro del HTML.
+Rick Music es una implementación independiente y parcial, sin equivalencia
+completa demostrada con Finale.
+
+Fuentes-Rick-Music.zip contiene el editor y las fuentes preferidas del
+codificador LAME/lamejs para recompilar o sustituir la biblioteca LGPL.

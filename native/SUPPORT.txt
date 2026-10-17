@@ -1,0 +1,51 @@
+RICK MUSIC 0.2 — INSTALACIÓN EN MAC
+
+1. Descomprime Rick-Music-macOS.zip en el Mac de destino.
+2. Arrastra «Rick Music.app» a Aplicaciones.
+3. Abre Rick Music desde Aplicaciones. Conserva una copia de tus partituras.
+
+Compatibilidad prevista
+• macOS 12 Monterey o posterior.
+• Apple Silicon (arm64) e Intel de 64 bits (x86_64).
+• Funciona localmente y sin conexión; usa las fuentes y el banco de sonido de macOS.
+• El ZIP contiene ambas arquitecturas. Se verificó la firma después de extraerlo
+  en el equipo de compilación. Esa comprobación no sustituye probar el otro Mac.
+
+Firma y apertura de aplicaciones descargadas
+Los Mac M2 y M5 usan la misma arquitectura arm64; añadir Intel al paquete no
+resuelve por sí solo el bloqueo de apertura entre esos dos equipos.
+
+Esta compilación usa una firma local ad-hoc. No tiene un certificado Developer ID
+ni notarización de Apple. Gatekeeper puede impedir abrirla en otro Mac aun cuando
+la arquitectura y macOS sean compatibles. Una distribución con apertura normal
+en otros Mac requiere que el desarrollador firme con Developer ID y complete la
+notarización de Apple. No se incluye ni modifica ninguna configuración de seguridad.
+
+Si aparece un error de apertura, anota el mensaje exacto, el modelo del Mac y su
+versión de macOS. Usa la edición web local suministrada por separado mientras se
+prepara una distribución firmada y notarizada.
+
+Archivos
+El formato editable propio es .rickmusic. También se conservan los archivos
+.partitura de versiones anteriores. Guarda una copia antes de intercambiar una
+partitura con otra aplicación; la fidelidad depende de los formatos y funciones
+que ambas aplicaciones admitan. Consulta el LEEME del proyecto (FUNCIONES.txt dentro del ZIP) para los límites
+del importador MUSX y las funciones de notación actuales.
+Exportar MUSX sólo conserva el archivo original importado sin modificaciones.
+Las partituras nuevas o editadas deben guardarse como .rickmusic o exportarse
+como MusicXML; la escritura MUSX experimental todavía no se ha validado en Finale.
+
+Para el desarrollador: notarize-macos.sh prepara la distribución firmada y
+notarizada usando SIGNING_IDENTITY (Developer ID Application) y NOTARY_PROFILE
+(perfil existente de notarytool). No guarda contraseñas ni modifica seguridad.
+Este paso necesita el certificado y el perfil configurados en el equipo; no se
+ha ejecutado en esta compilación.
+
+Rick Music es un editor independiente de notación musical. Esta compilación no
+es una distribución de Finale ni garantiza equivalencia con todas sus funciones.
+
+Fuentes y licencias
+Fuentes-Rick-Music.zip dentro de este ZIP conserva el editor y las fuentes
+preferidas del codificador MP3 LAME/lamejs. Se permite modificar, recompilar y
+sustituir la biblioteca según sus licencias. TERCEROS.txt y LICENSES/ contienen
+los avisos y textos completos; MANUAL.txt explica MP3 y los formatos de archivo.

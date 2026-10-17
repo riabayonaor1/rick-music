@@ -1,0 +1,132 @@
+RICK MUSIC 0.2 — PALETA DE HERRAMIENTAS
+
+36 iconos SVG originales, organizados a partir de los 31 accesos actuales y 5 históricos identificados en los recursos de Finale Demo 27.4.1.146. Los iconos y el código son de esta implementación independiente. La presencia de una herramienta no implica equivalencia con todas sus opciones en Finale.
+
+1. Ossia
+   Crear un pentagrama alternativo pequeño para el compás seleccionado.
+   Alcance: Alternativa copiada de una capa de un compás con ritmo regular; se conserva en el documento propio.
+
+2. Corchete
+   Agrupar pentagramas con corchete, llave o línea.
+
+3. Acorde
+   Escribir el cifrado de un acorde.
+   Alcance: Cifrado escrito como texto, sin biblioteca de diagramas de guitarra.
+
+4. Clave
+   Elegir la clave de un pentagrama o compás.
+   Alcance: Sol, fa, do en tercera y percusión; cambios desde inicio de compás.
+
+5. Agarre manual
+   Desplazar la vista de la partitura.
+
+6. Título (acceso histórico)
+   Editar el título mediante la herramienta de texto.
+
+7. HyperScribe
+   Grabar una interpretación MIDI y transcribirla.
+   Alcance: Entrada de notas CoreMIDI o A–G, cuantización y transcripción al finalizar. No incluye todas las opciones avanzadas de Finale.
+
+8. Armadura
+   Cambiar la tonalidad de la partitura.
+   Alcance: Armadura global; cambios dentro de la obra aún no compatibles.
+
+9. Letra
+   Añadir letra a la nota seleccionada.
+   Alcance: Letra silábica por nota, sin todo el sistema editorial de versos/coros.
+
+10. Edición de región
+   Seleccionar, copiar y transportar regiones musicales.
+
+11. Compás clásico (acceso histórico)
+   Abrir los atributos del compás.
+
+12. Compás
+   Editar barras de compás, etiquetas y repeticiones.
+
+13. Número de compás (acceso histórico)
+   Editar la etiqueta del compás.
+
+14. MIDI
+   Ajustar velocidad y desplazamiento temporal de una nota.
+
+15. Espejo
+   Copiar un compás y conservar su referencia de origen.
+   Alcance: Copia con referencia de origen; no es un vínculo que se actualice automáticamente.
+
+16. Pentagrama
+   Editar el nombre y transposición del instrumento.
+   Alcance: Nombre y transposición escrita; cambiar timbre y clave desde el editor de instrumento.
+
+17. Articulación
+   Asignar una articulación a la nota seleccionada.
+
+18. Movimiento de notas
+   Mover la nota a otra capa independiente.
+
+19. Gráfico
+   Exportar gráficos de la partitura.
+   Alcance: Colocar PNG/JPEG y exportar SVG; no admite todas las opciones gráficas de Finale.
+
+20. Maquetación
+   Ajustar distribución de sistemas y pentagramas.
+   Alcance: Compases por sistema y separación de pentagramas; no incluye todas las reglas de grabado editorial.
+
+21. Repetición
+   Crear inicio y final de repetición en el compás.
+   Alcance: Repetición simple de un rango, 2–16 interpretaciones. No hay casillas, D.S., D.C. ni Coda.
+
+22. Tamaño
+   Cambiar el tamaño de página o de la nota seleccionada.
+   Alcance: Tamaño de nota y escala de vista de página; no replica todas las unidades de grabado de Finale.
+
+23. Expresión
+   Añadir una indicación expresiva a la nota.
+
+24. Introducción simple
+   Introducir notas con la duración elegida.
+
+25. Forma inteligente
+   Dibujar ligaduras, reguladores o líneas entre notas.
+   Alcance: Ligadura de expresión, crescendo, diminuendo y línea entre dos notas. No incluye todos los tipos ni la reproducción de reguladores.
+
+26. Herramientas especiales
+   Ajustar plica, cabeza, posición y puntillos de una nota.
+   Alcance: Plica, cabeza, puntillos y desplazamiento visual; no todas las herramientas especiales de Finale.
+
+27. Introducción rápida
+   Introducir música mediante teclado o MIDI.
+   Alcance: Entrada con A–G, duración y acordes; la grabación MIDI se encuentra en HyperScribe.
+
+28. Atributos de pentagrama (acceso histórico)
+   Abrir los atributos actuales del pentagrama.
+
+29. Expresiones de pentagrama (acceso histórico)
+   Añadir una expresión con la herramienta actual.
+
+30. Tempo
+   Asignar un tempo global o al compás seleccionado.
+
+31. Texto
+   Añadir un bloque de texto a la página.
+   Alcance: Bloques de texto en primera página; posiciones en coordenadas de la hoja.
+
+32. Indicación de compás
+   Establecer la métrica de la partitura.
+   Alcance: Métrica global; cambios dentro de la obra aún no compatibles.
+
+33. Transcripción
+   Transcribir una interpretación MIDI.
+   Alcance: Transcripción de interpretación MIDI; no transcribe audio acústico.
+
+34. Grupo irregular
+   Crear tresillos, quintillos o septillos.
+
+35. Zoom
+   Cambiar el aumento de la vista.
+
+36. Selección
+   Seleccionar notas y compases para editarlos.
+
+Límites generales
+Hasta 8 pentagramas, 128 compases y cuatro capas. Catálogo de 146 perfiles. El documento .rickmusic conserva los objetos de edición; MusicXML/MIDI indican las pérdidas de datos visuales al exportar. MUSX: lectura compatible y devolución del original sin cambios; la escritura nueva/editada permanece bloqueada por falta de validación en Finale. No hay equivalencia completa con Finale: faltan partes vinculadas, Human Playback, plugins, Audio Units, tablatura completa y grabado avanzado.

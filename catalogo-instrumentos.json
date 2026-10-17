@@ -1,0 +1,1755 @@
+[
+  {
+    "id": "voice-baritone",
+    "name": "Barítono (voz)",
+    "family": "Voces",
+    "program": 52,
+    "clef": "bass",
+    "range": [
+      45,
+      65
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-soprano",
+    "name": "Soprano",
+    "family": "Voces",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      60,
+      84
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-mezzo",
+    "name": "Mezzosoprano",
+    "family": "Voces",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      57,
+      81
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-alto",
+    "name": "Contralto",
+    "family": "Voces",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      53,
+      77
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-tenor",
+    "name": "Tenor",
+    "family": "Voces",
+    "program": 52,
+    "clef": "bass",
+    "range": [
+      48,
+      72
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-bass",
+    "name": "Bajo (voz)",
+    "family": "Voces",
+    "program": 52,
+    "clef": "bass",
+    "range": [
+      40,
+      64
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-children",
+    "name": "Voz infantil",
+    "family": "Voces",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      60,
+      79
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "voice-choir",
+    "name": "Coro mixto",
+    "family": "Voces",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      40,
+      84
+    ],
+    "hint": "Registro orientativo · sonido coral"
+  },
+  {
+    "id": "brass-baritone",
+    "name": "Bombardino / barítono (metal)",
+    "program": 57,
+    "clef": "bass",
+    "range": [
+      40,
+      70
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "brass-euphonium",
+    "name": "Eufonio",
+    "program": 57,
+    "clef": "bass",
+    "range": [
+      40,
+      70
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "brass-cornet",
+    "name": "Corneta",
+    "program": 56,
+    "clef": "treble",
+    "range": [
+      54,
+      82
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "brass-flugelhorn",
+    "name": "Fliscorno",
+    "program": 56,
+    "clef": "treble",
+    "range": [
+      54,
+      82
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "wood-bassclarinet",
+    "name": "Clarinete bajo",
+    "program": 71,
+    "clef": "bass",
+    "range": [
+      38,
+      74
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "wood-contrabassoon",
+    "name": "Contrafagot",
+    "program": 70,
+    "clef": "bass",
+    "range": [
+      22,
+      58
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "wood-altoflute",
+    "name": "Flauta alto",
+    "program": 73,
+    "clef": "treble",
+    "range": [
+      55,
+      91
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "wood-bassflute",
+    "name": "Flauta baja",
+    "program": 73,
+    "clef": "bass",
+    "range": [
+      48,
+      84
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "strings-violin2",
+    "name": "Violín II",
+    "program": 40,
+    "clef": "treble",
+    "range": [
+      55,
+      103
+    ],
+    "family": "Orquesta · adicionales",
+    "hint": "Altura de concierto · timbre GM aproximado"
+  },
+  {
+    "id": "gm-0",
+    "name": "Piano de cola",
+    "family": "Teclados",
+    "program": 0,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 1"
+  },
+  {
+    "id": "gm-1",
+    "name": "Piano brillante",
+    "family": "Teclados",
+    "program": 1,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 2"
+  },
+  {
+    "id": "gm-2",
+    "name": "Piano eléctrico de cola",
+    "family": "Teclados",
+    "program": 2,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 3"
+  },
+  {
+    "id": "gm-3",
+    "name": "Piano honky-tonk",
+    "family": "Teclados",
+    "program": 3,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 4"
+  },
+  {
+    "id": "gm-4",
+    "name": "Piano eléctrico 1",
+    "family": "Teclados",
+    "program": 4,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 5"
+  },
+  {
+    "id": "gm-5",
+    "name": "Piano eléctrico 2",
+    "family": "Teclados",
+    "program": 5,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 6"
+  },
+  {
+    "id": "gm-6",
+    "name": "Clavecín",
+    "family": "Teclados",
+    "program": 6,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 7"
+  },
+  {
+    "id": "gm-7",
+    "name": "Clavinet",
+    "family": "Teclados",
+    "program": 7,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 8"
+  },
+  {
+    "id": "gm-8",
+    "name": "Celesta",
+    "family": "Percusión afinada",
+    "program": 8,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 9"
+  },
+  {
+    "id": "gm-9",
+    "name": "Glockenspiel",
+    "family": "Percusión afinada",
+    "program": 9,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 10"
+  },
+  {
+    "id": "gm-10",
+    "name": "Caja de música",
+    "family": "Percusión afinada",
+    "program": 10,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 11"
+  },
+  {
+    "id": "gm-11",
+    "name": "Vibráfono",
+    "family": "Percusión afinada",
+    "program": 11,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 12"
+  },
+  {
+    "id": "gm-12",
+    "name": "Marimba",
+    "family": "Percusión afinada",
+    "program": 12,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 13"
+  },
+  {
+    "id": "gm-13",
+    "name": "Xilófono",
+    "family": "Percusión afinada",
+    "program": 13,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 14"
+  },
+  {
+    "id": "gm-14",
+    "name": "Campanas tubulares",
+    "family": "Percusión afinada",
+    "program": 14,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 15"
+  },
+  {
+    "id": "gm-15",
+    "name": "Dulcémele",
+    "family": "Percusión afinada",
+    "program": 15,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 16"
+  },
+  {
+    "id": "gm-16",
+    "name": "Órgano de tiradores",
+    "family": "Órganos y acordeones",
+    "program": 16,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 17"
+  },
+  {
+    "id": "gm-17",
+    "name": "Órgano de percusión",
+    "family": "Órganos y acordeones",
+    "program": 17,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 18"
+  },
+  {
+    "id": "gm-18",
+    "name": "Órgano de rock",
+    "family": "Órganos y acordeones",
+    "program": 18,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 19"
+  },
+  {
+    "id": "gm-19",
+    "name": "Órgano de iglesia",
+    "family": "Órganos y acordeones",
+    "program": 19,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 20"
+  },
+  {
+    "id": "gm-20",
+    "name": "Órgano de lengüetas",
+    "family": "Órganos y acordeones",
+    "program": 20,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 21"
+  },
+  {
+    "id": "gm-21",
+    "name": "Acordeón",
+    "family": "Órganos y acordeones",
+    "program": 21,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 22"
+  },
+  {
+    "id": "gm-22",
+    "name": "Armónica",
+    "family": "Órganos y acordeones",
+    "program": 22,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 23"
+  },
+  {
+    "id": "gm-23",
+    "name": "Bandoneón",
+    "family": "Órganos y acordeones",
+    "program": 23,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 24"
+  },
+  {
+    "id": "gm-24",
+    "name": "Guitarra clásica",
+    "family": "Guitarras",
+    "program": 24,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 25"
+  },
+  {
+    "id": "gm-25",
+    "name": "Guitarra acústica",
+    "family": "Guitarras",
+    "program": 25,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 26"
+  },
+  {
+    "id": "gm-26",
+    "name": "Guitarra de jazz",
+    "family": "Guitarras",
+    "program": 26,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 27"
+  },
+  {
+    "id": "gm-27",
+    "name": "Guitarra eléctrica limpia",
+    "family": "Guitarras",
+    "program": 27,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 28"
+  },
+  {
+    "id": "gm-28",
+    "name": "Guitarra eléctrica apagada",
+    "family": "Guitarras",
+    "program": 28,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 29"
+  },
+  {
+    "id": "gm-29",
+    "name": "Guitarra overdrive",
+    "family": "Guitarras",
+    "program": 29,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 30"
+  },
+  {
+    "id": "gm-30",
+    "name": "Guitarra distorsionada",
+    "family": "Guitarras",
+    "program": 30,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 31"
+  },
+  {
+    "id": "gm-31",
+    "name": "Armónicos de guitarra",
+    "family": "Guitarras",
+    "program": 31,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 32"
+  },
+  {
+    "id": "gm-32",
+    "name": "Bajo acústico",
+    "family": "Bajos",
+    "program": 32,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 33"
+  },
+  {
+    "id": "gm-33",
+    "name": "Bajo eléctrico con dedos",
+    "family": "Bajos",
+    "program": 33,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 34"
+  },
+  {
+    "id": "gm-34",
+    "name": "Bajo eléctrico con púa",
+    "family": "Bajos",
+    "program": 34,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 35"
+  },
+  {
+    "id": "gm-35",
+    "name": "Bajo sin trastes",
+    "family": "Bajos",
+    "program": 35,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 36"
+  },
+  {
+    "id": "gm-36",
+    "name": "Bajo slap 1",
+    "family": "Bajos",
+    "program": 36,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 37"
+  },
+  {
+    "id": "gm-37",
+    "name": "Bajo slap 2",
+    "family": "Bajos",
+    "program": 37,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 38"
+  },
+  {
+    "id": "gm-38",
+    "name": "Bajo sintetizado 1",
+    "family": "Bajos",
+    "program": 38,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 39"
+  },
+  {
+    "id": "gm-39",
+    "name": "Bajo sintetizado 2",
+    "family": "Bajos",
+    "program": 39,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 40"
+  },
+  {
+    "id": "gm-40",
+    "name": "Violín",
+    "family": "Cuerdas",
+    "program": 40,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 41"
+  },
+  {
+    "id": "gm-41",
+    "name": "Viola",
+    "family": "Cuerdas",
+    "program": 41,
+    "clef": "alto",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 42"
+  },
+  {
+    "id": "gm-42",
+    "name": "Violonchelo",
+    "family": "Cuerdas",
+    "program": 42,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 43"
+  },
+  {
+    "id": "gm-43",
+    "name": "Contrabajo",
+    "family": "Cuerdas",
+    "program": 43,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 44"
+  },
+  {
+    "id": "gm-44",
+    "name": "Trémolo de cuerdas",
+    "family": "Cuerdas",
+    "program": 44,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 45"
+  },
+  {
+    "id": "gm-45",
+    "name": "Cuerdas pizzicato",
+    "family": "Cuerdas",
+    "program": 45,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 46"
+  },
+  {
+    "id": "gm-46",
+    "name": "Arpa",
+    "family": "Cuerdas",
+    "program": 46,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 47"
+  },
+  {
+    "id": "gm-47",
+    "name": "Timbales",
+    "family": "Cuerdas",
+    "program": 47,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 48"
+  },
+  {
+    "id": "gm-48",
+    "name": "Conjunto de cuerdas 1",
+    "family": "Conjuntos y coros",
+    "program": 48,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 49"
+  },
+  {
+    "id": "gm-49",
+    "name": "Conjunto de cuerdas 2",
+    "family": "Conjuntos y coros",
+    "program": 49,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 50"
+  },
+  {
+    "id": "gm-50",
+    "name": "Cuerdas sintetizadas 1",
+    "family": "Conjuntos y coros",
+    "program": 50,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 51"
+  },
+  {
+    "id": "gm-51",
+    "name": "Cuerdas sintetizadas 2",
+    "family": "Conjuntos y coros",
+    "program": 51,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 52"
+  },
+  {
+    "id": "gm-52",
+    "name": "Coro ah",
+    "family": "Conjuntos y coros",
+    "program": 52,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 53"
+  },
+  {
+    "id": "gm-53",
+    "name": "Coro oh",
+    "family": "Conjuntos y coros",
+    "program": 53,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 54"
+  },
+  {
+    "id": "gm-54",
+    "name": "Voz sintetizada",
+    "family": "Conjuntos y coros",
+    "program": 54,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 55"
+  },
+  {
+    "id": "gm-55",
+    "name": "Golpe de orquesta",
+    "family": "Conjuntos y coros",
+    "program": 55,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 56"
+  },
+  {
+    "id": "gm-56",
+    "name": "Trompeta",
+    "family": "Metales",
+    "program": 56,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 57"
+  },
+  {
+    "id": "gm-57",
+    "name": "Trombón",
+    "family": "Metales",
+    "program": 57,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 58"
+  },
+  {
+    "id": "gm-58",
+    "name": "Tuba",
+    "family": "Metales",
+    "program": 58,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 59"
+  },
+  {
+    "id": "gm-59",
+    "name": "Trompeta con sordina",
+    "family": "Metales",
+    "program": 59,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 60"
+  },
+  {
+    "id": "gm-60",
+    "name": "Trompa",
+    "family": "Metales",
+    "program": 60,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 61"
+  },
+  {
+    "id": "gm-61",
+    "name": "Conjunto de metales",
+    "family": "Metales",
+    "program": 61,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 62"
+  },
+  {
+    "id": "gm-62",
+    "name": "Metales sintetizados 1",
+    "family": "Metales",
+    "program": 62,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 63"
+  },
+  {
+    "id": "gm-63",
+    "name": "Metales sintetizados 2",
+    "family": "Metales",
+    "program": 63,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 64"
+  },
+  {
+    "id": "gm-64",
+    "name": "Saxofón soprano",
+    "family": "Maderas de lengüeta",
+    "program": 64,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 65"
+  },
+  {
+    "id": "gm-65",
+    "name": "Saxofón alto",
+    "family": "Maderas de lengüeta",
+    "program": 65,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 66"
+  },
+  {
+    "id": "gm-66",
+    "name": "Saxofón tenor",
+    "family": "Maderas de lengüeta",
+    "program": 66,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 67"
+  },
+  {
+    "id": "gm-67",
+    "name": "Saxofón barítono",
+    "family": "Maderas de lengüeta",
+    "program": 67,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 68"
+  },
+  {
+    "id": "gm-68",
+    "name": "Oboe",
+    "family": "Maderas de lengüeta",
+    "program": 68,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 69"
+  },
+  {
+    "id": "gm-69",
+    "name": "Corno inglés",
+    "family": "Maderas de lengüeta",
+    "program": 69,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 70"
+  },
+  {
+    "id": "gm-70",
+    "name": "Fagot",
+    "family": "Maderas de lengüeta",
+    "program": 70,
+    "clef": "bass",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 71"
+  },
+  {
+    "id": "gm-71",
+    "name": "Clarinete",
+    "family": "Maderas de lengüeta",
+    "program": 71,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 72"
+  },
+  {
+    "id": "gm-72",
+    "name": "Flautín",
+    "family": "Flautas",
+    "program": 72,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 73"
+  },
+  {
+    "id": "gm-73",
+    "name": "Flauta travesera",
+    "family": "Flautas",
+    "program": 73,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 74"
+  },
+  {
+    "id": "gm-74",
+    "name": "Flauta dulce",
+    "family": "Flautas",
+    "program": 74,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 75"
+  },
+  {
+    "id": "gm-75",
+    "name": "Flauta de Pan",
+    "family": "Flautas",
+    "program": 75,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 76"
+  },
+  {
+    "id": "gm-76",
+    "name": "Soplo de botella",
+    "family": "Flautas",
+    "program": 76,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 77"
+  },
+  {
+    "id": "gm-77",
+    "name": "Shakuhachi",
+    "family": "Flautas",
+    "program": 77,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 78"
+  },
+  {
+    "id": "gm-78",
+    "name": "Silbato",
+    "family": "Flautas",
+    "program": 78,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 79"
+  },
+  {
+    "id": "gm-79",
+    "name": "Ocarina",
+    "family": "Flautas",
+    "program": 79,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 80"
+  },
+  {
+    "id": "gm-80",
+    "name": "Lead cuadrado",
+    "family": "Sintetizadores solistas",
+    "program": 80,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 81"
+  },
+  {
+    "id": "gm-81",
+    "name": "Lead diente de sierra",
+    "family": "Sintetizadores solistas",
+    "program": 81,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 82"
+  },
+  {
+    "id": "gm-82",
+    "name": "Lead calíope",
+    "family": "Sintetizadores solistas",
+    "program": 82,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 83"
+  },
+  {
+    "id": "gm-83",
+    "name": "Lead chiff",
+    "family": "Sintetizadores solistas",
+    "program": 83,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 84"
+  },
+  {
+    "id": "gm-84",
+    "name": "Lead charang",
+    "family": "Sintetizadores solistas",
+    "program": 84,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 85"
+  },
+  {
+    "id": "gm-85",
+    "name": "Lead voz",
+    "family": "Sintetizadores solistas",
+    "program": 85,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 86"
+  },
+  {
+    "id": "gm-86",
+    "name": "Lead quintas",
+    "family": "Sintetizadores solistas",
+    "program": 86,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 87"
+  },
+  {
+    "id": "gm-87",
+    "name": "Lead bajo y solista",
+    "family": "Sintetizadores solistas",
+    "program": 87,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 88"
+  },
+  {
+    "id": "gm-88",
+    "name": "Pad nueva era",
+    "family": "Pads",
+    "program": 88,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 89"
+  },
+  {
+    "id": "gm-89",
+    "name": "Pad cálido",
+    "family": "Pads",
+    "program": 89,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 90"
+  },
+  {
+    "id": "gm-90",
+    "name": "Pad polisintético",
+    "family": "Pads",
+    "program": 90,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 91"
+  },
+  {
+    "id": "gm-91",
+    "name": "Pad coro",
+    "family": "Pads",
+    "program": 91,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 92"
+  },
+  {
+    "id": "gm-92",
+    "name": "Pad arco",
+    "family": "Pads",
+    "program": 92,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 93"
+  },
+  {
+    "id": "gm-93",
+    "name": "Pad metálico",
+    "family": "Pads",
+    "program": 93,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 94"
+  },
+  {
+    "id": "gm-94",
+    "name": "Pad halo",
+    "family": "Pads",
+    "program": 94,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 95"
+  },
+  {
+    "id": "gm-95",
+    "name": "Pad barrido",
+    "family": "Pads",
+    "program": 95,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 96"
+  },
+  {
+    "id": "gm-96",
+    "name": "FX lluvia",
+    "family": "Efectos sintetizados",
+    "program": 96,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 97"
+  },
+  {
+    "id": "gm-97",
+    "name": "FX banda sonora",
+    "family": "Efectos sintetizados",
+    "program": 97,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 98"
+  },
+  {
+    "id": "gm-98",
+    "name": "FX cristal",
+    "family": "Efectos sintetizados",
+    "program": 98,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 99"
+  },
+  {
+    "id": "gm-99",
+    "name": "FX atmósfera",
+    "family": "Efectos sintetizados",
+    "program": 99,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 100"
+  },
+  {
+    "id": "gm-100",
+    "name": "FX brillo",
+    "family": "Efectos sintetizados",
+    "program": 100,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 101"
+  },
+  {
+    "id": "gm-101",
+    "name": "FX duendes",
+    "family": "Efectos sintetizados",
+    "program": 101,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 102"
+  },
+  {
+    "id": "gm-102",
+    "name": "FX ecos",
+    "family": "Efectos sintetizados",
+    "program": 102,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 103"
+  },
+  {
+    "id": "gm-103",
+    "name": "FX ciencia ficción",
+    "family": "Efectos sintetizados",
+    "program": 103,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 104"
+  },
+  {
+    "id": "gm-104",
+    "name": "Sitar",
+    "family": "Instrumentos del mundo",
+    "program": 104,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 105"
+  },
+  {
+    "id": "gm-105",
+    "name": "Banjo",
+    "family": "Instrumentos del mundo",
+    "program": 105,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 106"
+  },
+  {
+    "id": "gm-106",
+    "name": "Shamisen",
+    "family": "Instrumentos del mundo",
+    "program": 106,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 107"
+  },
+  {
+    "id": "gm-107",
+    "name": "Koto",
+    "family": "Instrumentos del mundo",
+    "program": 107,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 108"
+  },
+  {
+    "id": "gm-108",
+    "name": "Kalimba",
+    "family": "Instrumentos del mundo",
+    "program": 108,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 109"
+  },
+  {
+    "id": "gm-109",
+    "name": "Gaita",
+    "family": "Instrumentos del mundo",
+    "program": 109,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 110"
+  },
+  {
+    "id": "gm-110",
+    "name": "Violín tradicional",
+    "family": "Instrumentos del mundo",
+    "program": 110,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 111"
+  },
+  {
+    "id": "gm-111",
+    "name": "Shanai",
+    "family": "Instrumentos del mundo",
+    "program": 111,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 112"
+  },
+  {
+    "id": "gm-112",
+    "name": "Campanilla",
+    "family": "Percusión y efectos afinados",
+    "program": 112,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 113"
+  },
+  {
+    "id": "gm-113",
+    "name": "Agogô",
+    "family": "Percusión y efectos afinados",
+    "program": 113,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 114"
+  },
+  {
+    "id": "gm-114",
+    "name": "Steel drums",
+    "family": "Percusión y efectos afinados",
+    "program": 114,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 115"
+  },
+  {
+    "id": "gm-115",
+    "name": "Woodblock",
+    "family": "Percusión y efectos afinados",
+    "program": 115,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 116"
+  },
+  {
+    "id": "gm-116",
+    "name": "Taiko",
+    "family": "Percusión y efectos afinados",
+    "program": 116,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 117"
+  },
+  {
+    "id": "gm-117",
+    "name": "Tom melódico",
+    "family": "Percusión y efectos afinados",
+    "program": 117,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 118"
+  },
+  {
+    "id": "gm-118",
+    "name": "Batería sintetizada",
+    "family": "Percusión y efectos afinados",
+    "program": 118,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 119"
+  },
+  {
+    "id": "gm-119",
+    "name": "Platillo invertido",
+    "family": "Percusión y efectos afinados",
+    "program": 119,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 120"
+  },
+  {
+    "id": "gm-120",
+    "name": "Ruido de trastes",
+    "family": "Efectos sonoros",
+    "program": 120,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 121"
+  },
+  {
+    "id": "gm-121",
+    "name": "Ruido de respiración",
+    "family": "Efectos sonoros",
+    "program": 121,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 122"
+  },
+  {
+    "id": "gm-122",
+    "name": "Mar",
+    "family": "Efectos sonoros",
+    "program": 122,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 123"
+  },
+  {
+    "id": "gm-123",
+    "name": "Pájaro",
+    "family": "Efectos sonoros",
+    "program": 123,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 124"
+  },
+  {
+    "id": "gm-124",
+    "name": "Teléfono",
+    "family": "Efectos sonoros",
+    "program": 124,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 125"
+  },
+  {
+    "id": "gm-125",
+    "name": "Helicóptero",
+    "family": "Efectos sonoros",
+    "program": 125,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 126"
+  },
+  {
+    "id": "gm-126",
+    "name": "Aplausos",
+    "family": "Efectos sonoros",
+    "program": 126,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 127"
+  },
+  {
+    "id": "gm-127",
+    "name": "Disparo",
+    "family": "Efectos sonoros",
+    "program": 127,
+    "clef": "treble",
+    "range": [
+      0,
+      127
+    ],
+    "hint": "General MIDI 128"
+  },
+  {
+    "id": "drum-kit",
+    "name": "Batería / percusión GM",
+    "family": "Batería",
+    "program": 0,
+    "clef": "percussion",
+    "range": [
+      35,
+      81
+    ],
+    "percussion": true,
+    "hint": "Mapa GM · notas 35–81"
+  }
+]

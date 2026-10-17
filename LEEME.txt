@@ -1,0 +1,187 @@
+RICK MUSIC 0.2 — EDITOR INDEPENDIENTE DE NOTACIÓN MUSICAL
+
+Abrir en un Mac
+Descomprime Rick-Music-macOS.zip y arrastra «Rick Music.app» a Aplicaciones.
+La compilación contiene Apple Silicon (M2, M5 y otros arm64) e Intel x86_64;
+requiere macOS 12 o posterior. No necesita Node, REA, Ghidra ni Hopper para usarla.
+
+La aplicación nativa actual usa firma local ad-hoc, sin Developer ID ni
+notarización de Apple. Gatekeeper la rechaza en la evaluación de distribución.
+Por ello no se garantiza su apertura normal al enviarla a otro Mac. Los Mac M2
+y M5 comparten arquitectura: la compilación universal no soluciona por sí sola
+ese bloqueo. No se modifican ajustes de seguridad. El archivo native/SUPPORT.txt
+explica el estado y notarize-macos.sh prepara la firma/notarización cuando el
+desarrollador disponga de un certificado y un perfil de notarytool configurados.
+
+Alternativa portátil
+RickMusicWeb.html reúne la interfaz, el motor y los recursos en un solo archivo.
+Ábrelo en un navegador actual y úsalo sin conexión, también en otro Mac. No
+necesita instalar una aplicación. Guarda tus documentos con Guardar y elige una
+carpeta; el autosave del navegador no sustituye una copia portátil. La edición web
+reproduce mediante síntesis simplificada; la nativa usa el banco de sonido de
+macOS. MIDI externo en navegador depende de Web MIDI y su autorización; Safari
+no dispone de la misma entrada MIDI que la aplicación nativa.
+
+Instrumentos y voces
+146 perfiles: 128 programas General MIDI, 8 perfiles vocales, 9 perfiles
+orquestales adicionales y batería GM. Incluye barítono vocal, soprano,
+mezzosoprano, contralto, tenor, bajo, coro, voz infantil, bombardino/eufonio y
+saxofón barítono. Busca por nombre o familia desde Instrumentos > +.
+Hasta 8 pentagramas simultáneos; un catálogo de 146 perfiles no equivale a
+146 instrumentos cargados a la vez. Algunos perfiles aproximan su timbre con
+un programa GM. El registro vocal es orientativo y no limita la escritura.
+
+Capas y grupos irregulares
+Cada pentagrama admite cuatro capas rítmicas independientes. Selecciona Capa
+1–4 antes de insertar o editar; «Mostrar todas» controla su visualización.
+Cada capa mantiene su propia secuencia y capacidad del compás. Las capas pueden
+sonar simultáneamente y se conservan en el documento propio y los formatos de
+intercambio compatibles.
+
+El botón 3 activa la entrada de tresillos. El selector ofrece tresillo 3:2,
+quintillo 5:4 y septillo 7:4. «Convertir grupo…» convierte notas consecutivas de
+la capa seleccionada. La cifra y la agrupación representan su relación real de
+duración, utilizada también en reproducción y exportación.
+
+Edición
+Selecciona un compás. A–G o el teclado inferior insertan notas; Octava determina
+el registro. Las notas se añaden al final de la capa seleccionada. Un compás
+lleno avanza al siguiente. Mayúsculas + clic o Mayúsculas + A–G añade una altura
+al acorde seleccionado. Selecciona una nota para editar duración, puntillo,
+alteración, letra, cifrado, dinámica o articulación. Las ligaduras de
+prolongación unen notas iguales consecutivas, incluso entre compases.
+
+Para modificar una nota existente, usa Selección y elige su capa. Arrástrala
+verticalmente para cambiar su altura diatónica y horizontalmente para reordenar
+o moverla a otro compás cuando tenga espacio. El movimiento completo se puede
+deshacer como una sola operación. Arriba/abajo ajusta semitonos; con Mayúsculas,
+octavas. Elige otra figura para cambiar duración o usa los campos del inspector
+para alteraciones, dinámica, articulación y letra.
+
+La paleta reúne 36 accesos, incluidas variantes históricas, con operaciones de
+selección, escritura simple/rápida, capas, grupos irregulares, claves, armaduras,
+compás, barras/repeticiones, expresiones, articulaciones, plicas, cabezas,
+tamaño de notas, formato de página, textos, corchetes, ossia y formas gráficas.
+Edición de región copia, transporta o vacía grupos de compases. Gráficos coloca
+imágenes PNG/JPEG y exporta la partitura como SVG. Algunas herramientas abren
+un diálogo de parámetros y otras actúan sobre la selección.
+El documento propio conserva sus datos de edición; los formatos externos tienen
+sus propios límites. Las herramientas heredadas de Finale se implementan como
+operaciones independientes y no incluyen su código ni su sistema de plugins.
+
+MIDI en directo
+HyperScribe y Transcripción graban notas desde un teclado MIDI conectado o
+desde las teclas A–G. Selecciona primero el pentagrama/compás de destino, abre
+la herramienta, elige la rejilla de cuantización y comienza. «Finalizar
+grabación» convierte las notas a notación y reemplaza los compases de destino
+por la interpretación cuantizada; puedes deshacer la operación.
+La aplicación nativa detecta fuentes CoreMIDI y cambios de conexión. La versión
+web usa Web MIDI donde está disponible, con el permiso del navegador. Los
+eventos note-on/note-off se cronometran y la interfaz realiza la cuantización.
+Esto no implica equivalencia con todas las opciones de HyperScribe de Finale.
+La transcripción de audio cantado o instrumentos acústicos no se incluye.
+
+Atajos
+N: notas. R: silencios. Esc: selección. 1–5: redonda a semicorchea.
+Punto: puntillo. T: tresillo. Arriba/abajo: semitono; con Mayúsculas, octava.
+Izquierda/derecha: selección. Suprimir: borrar. Espacio: reproducir/detener.
+Cmd-Z: deshacer. Mayúsculas-Cmd-Z: rehacer. Cmd-S: guardar. Cmd-O: abrir.
+
+Guardar e intercambiar
+.rickmusic: formato editable propio, conserva los campos de Rick Music.
+.partitura/.json: lectura de los documentos de versiones anteriores.
+.musicxml/.xml: importación y exportación del contenido musical compatible.
+.mxl: importación MusicXML comprimido.
+.mid/.midi: importación y exportación de notas, tiempo, instrumentos y batería.
+MIDI no conserva por sí solo letras, cifrados ni maquetación de la partitura.
+PDF: exportación/impresión en páginas A4 desde el menú Archivo o el navegador.
+MP3: exportación estéreo a 44.100 Hz con calidad de 128, 192, 256 o 320 kb/s.
+
+Exportar MP3
+Pulsa MP3 o Archivo > Exportar MP3, elige calidad y confirma. La aplicación
+renderiza los instrumentos y genera el archivo con progreso y cancelación.
+La versión nativa utiliza el mismo banco General MIDI de macOS que la
+reproducción; la web usa síntesis simplificada. Se admiten hasta 30 minutos de
+música por archivo, más dos segundos de cola para las notas/reverberación.
+El render nativo envía bloques PCM al codificador sin cargar la grabación PCM
+completa. El MP3 resultante se guarda con el diálogo nativo o la descarga del
+navegador. Incluye título y compositor cuando están definidos.
+Las calidades mayores producen archivos más grandes. El MP3 contiene audio;
+conserva también el documento .rickmusic para seguir editando las notas.
+
+MUSX: alcance y verificación
+El lector abre el contenedor MUSX real con mimetype y score.dat comprimido y
+recodificado e importa el contenido musical que representa Rick Music: notas,
+silencios, acordes de notas, cuatro capas, grupos irregulares, ligaduras y letra
+básica. La maquetación y ciertos datos de Finale pueden variar; el lector avisa
+o rechaza las construcciones incompatibles. Entre sus límites están los
+cambios de compás o armadura dentro de una obra. Los .mus antiguos no se abren.
+
+Al importar, se conserva el contenedor original dentro del proyecto. «Exportar
+MUSX» sólo devuelve los bytes originales cuando el contenido no ha cambiado.
+Para partituras nuevas o modificadas, la exportación MUSX está bloqueada con un
+mensaje que indica guardar .rickmusic o utilizar MusicXML.
+
+Existe código experimental de escritura independiente del contenedor MUSX,
+pero sus resultados todavía no se han verificado abriéndolos en Finale y no
+se exponen como exportación normal. La prueba de ida y vuelta con el propio
+lector no demuestra que Finale acepte el resultado. Guarda el documento propio
+y exporta MusicXML para intercambiar una partitura editada. No se presenta un
+JSON renombrado como un archivo Finale.
+
+Conservación de documentos anteriores
+El cambio de nombre usa una nueva identidad de aplicación, app.rickmusic.editor.
+No elimina el almacén de recuperación de Partitura ni sus documentos. Abre los
+respaldos .partitura desde Rick Music y guárdalos como .rickmusic. No se copian
+bases WebKit activas entre aplicaciones. Conserva los respaldos antes de mover
+o eliminar una versión anterior.
+
+Alcance
+Rick Music sigue siendo una implementación independiente y parcial. No se ha
+demostrado equivalencia con todas las funciones de Finale. No incluye el motor
+Human Playback de Finale, su biblioteca de plugins, Audio Units de terceros,
+partes vinculadas completas, todos los mapas de percusión/tablaturas, todo el
+sistema de repeticiones/casillas ni la maquetación editorial de Finale. Algunas
+funciones avanzadas pueden conservarse sólo en el documento propio. Consulta
+los avisos al importar y verifica la partitura antes de imprimir o intercambiar.
+
+El análisis REA examinó el ejecutable y recursos UI de Finale Demo 27.4.1.146.
+La decompilación completa no se recuperó; reconstruccion-rea.json distingue
+la evidencia observada de las decisiones independientes de implementación.
+No se distribuyen ejecutables, fuentes ni muestras de Finale.
+
+Desarrollo
+npm ci                         Instalar dependencias
+npm run build                  Compilar JavaScript en dist/
+npm test                       Pruebas de modelo e intercambio
+bash run-native-tests.sh       Pruebas nativas de interfaz
+bash run-native-audio-tests.sh Pruebas del banco de sonido
+bash run-native-bridge-tests.sh Regresión Promise/comandos y valores WebKit
+bash run-native-audio-export-tests.sh Render PCM, bloques, duración y cancelación
+node build-offline.mjs         Crear ../RickMusicWeb.html sin conexión
+bash build-macos.sh            Crear app/ZIP universal con firma local
+bash notarize-macos.sh         Firmar/notarizar con identidad y perfil existentes
+python3 build-archives.py      Crear fuentes/Portable y adjuntar fuentes al ZIP Mac
+
+Las pruebas y la compilación nativas requieren las herramientas de Apple.
+El frontend compilado se incluye en dist/. Las licencias de VexFlow,
+fast-xml-parser, JSZip, midi-file, pako y las adaptaciones MIT de denigma y
+musxdom se recogen en TERCEROS.txt. El banco de sonido de macOS no se copia ni
+se redistribuye. La versión HTML autónoma incluye las licencias en su contenido.
+
+El codificador MP3 @breezystack/lamejs utiliza LAME y se conserva bajo LGPL v3.
+Las licencias completas LGPL/GPL se incluyen en LICENSES/ y TERCEROS.txt; las
+fuentes preferidas y sus instrucciones están en third_party/lamejs/. El paquete
+de fuentes permite recompilar el editor y volver a enlazar la biblioteca. Los
+ZIP nativo y Portable incluyen ese mismo paquete de fuentes. Los outlines y
+métricas de fuentes musicales de VexFlow conservan sus licencias propias.
+
+Para sustituir o modificar el codificador MP3 con sus fuentes preferidas:
+1. Entra en third_party/lamejs/, modifica src/ y ejecuta npm install seguido de
+   npm run build para generar su módulo ESM.
+2. Vuelve a la raíz del editor y ejecuta
+   npm install --no-save ./third_party/lamejs
+3. Ejecuta npm run build para volver a enlazar la interfaz; después puedes usar
+   node build-offline.mjs o bash build-macos.sh para crear las ediciones finales.
+Estas operaciones son de desarrollo y requieren Node/npm; el usuario final no
+necesita instalarlos para abrir la aplicación o el HTML incluidos.

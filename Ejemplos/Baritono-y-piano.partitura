@@ -1,0 +1,799 @@
+{
+  "version": 1,
+  "title": "Estudio para barítono",
+  "composer": "Voz y piano · ejemplo de Partitura",
+  "tempo": 92,
+  "time": [
+    4,
+    4
+  ],
+  "key": "C",
+  "parts": [
+    {
+      "id": "419d298b-b60b-487f-8e8a-78c5932e2344",
+      "name": "Barítono (voz)",
+      "clef": "bass",
+      "program": 52,
+      "volume": 0.8,
+      "muted": false,
+      "instrumentId": "voice-baritone",
+      "range": [
+        45,
+        65
+      ],
+      "percussion": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-3",
+              "pitches": [
+                48
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "Can",
+              "chord": "C",
+              "dynamic": "mp",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-4",
+              "pitches": [
+                52
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "to",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-5",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "a",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-6",
+              "pitches": [
+                52
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-7",
+              "pitches": [
+                50
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "luz",
+              "chord": "Dm",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-8",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "de",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-9",
+              "pitches": [
+                57
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-a",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ma",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-b",
+              "pitches": [
+                52
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ña",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-c",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "na",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-d",
+              "pitches": [
+                60
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "Can",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-e",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "to",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-f",
+              "pitches": [
+                50
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "a",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-g",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-h",
+              "pitches": [
+                59
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "luz",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-i",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "de",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-j",
+              "pitches": [
+                48
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-k",
+              "pitches": [
+                52
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ma",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-l",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ña",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-m",
+              "pitches": [
+                60
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "na",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-n",
+              "pitches": [
+                57
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "Can",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-o",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "to",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-p",
+              "pitches": [
+                50
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "a",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-q",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-r",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "luz",
+              "chord": "G7",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-s",
+              "pitches": [
+                59
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "de",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-t",
+              "pitches": [
+                62
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "la",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            },
+            {
+              "id": "pmv8zo7ga-u",
+              "pitches": [
+                59
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ma",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-v",
+              "pitches": [
+                60
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "ña",
+              "chord": "C",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pmv8zo7g0-1",
+      "name": "Piano · mano derecha",
+      "clef": "treble",
+      "program": 0,
+      "volume": 0.8,
+      "muted": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-w",
+              "pitches": [
+                60,
+                64,
+                67
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-x",
+              "pitches": [
+                62,
+                65,
+                69
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-y",
+              "pitches": [
+                60,
+                64,
+                67
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-z",
+              "pitches": [
+                55,
+                59,
+                62
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-10",
+              "pitches": [
+                60,
+                64,
+                67
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-11",
+              "pitches": [
+                53,
+                56,
+                60
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-12",
+              "pitches": [
+                55,
+                59,
+                62
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-13",
+              "pitches": [
+                60,
+                64,
+                67
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pmv8zo7g0-2",
+      "name": "Piano · Mano izquierda",
+      "clef": "bass",
+      "program": 0,
+      "volume": 0.8,
+      "muted": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-14",
+              "pitches": [
+                36,
+                43
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-15",
+              "pitches": [
+                38,
+                45
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-16",
+              "pitches": [
+                36,
+                43
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-17",
+              "pitches": [
+                31,
+                38
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-18",
+              "pitches": [
+                36,
+                43
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-19",
+              "pitches": [
+                29,
+                36
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-1a",
+              "pitches": [
+                31,
+                38
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv8zo7ga-1b",
+              "pitches": [
+                36,
+                43
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

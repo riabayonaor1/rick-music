@@ -1,0 +1,25 @@
+{
+  "name": "rick-music",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/app.js --bundle --format=iife --outfile=dist/app.js --loader:.woff2=file",
+    "test": "node --test tests/*.test.js",
+    "start": "python3 -m http.server 8765 --directory dist",
+    "test:ui": "./run-native-tests.sh",
+    "test:web": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "@breezystack/lamejs": "1.2.7",
+    "fast-xml-parser": "5.11.2",
+    "jszip": "3.10.1",
+    "midi-file": "1.2.4",
+    "pako": "1.0.11",
+    "vexflow": "4.2.5"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10",
+    "playwright": "^1.62.1"
+  }
+}

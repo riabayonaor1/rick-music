@@ -1,0 +1,803 @@
+{
+  "version": 1,
+  "title": "Rick Music · Barítono y piano",
+  "composer": "Ejemplo de cuatro capas y tresillos",
+  "tempo": 96,
+  "time": [
+    4,
+    4
+  ],
+  "key": "C",
+  "parts": [
+    {
+      "id": "21fb01fb-efb3-4873-98c5-2c09c1880bcb",
+      "name": "Barítono (voz)",
+      "clef": "bass",
+      "program": 52,
+      "volume": 0.8,
+      "muted": false,
+      "instrumentId": "voice-baritone",
+      "range": [
+        45,
+        65
+      ],
+      "percussion": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-3",
+              "pitches": [
+                48
+              ],
+              "duration": 0.3333333333333333,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "mp",
+              "articulation": "",
+              "tie": false,
+              "layer": 1,
+              "tuplet": {
+                "actual": 3,
+                "normal": 2,
+                "group": "demo-triplet"
+              },
+              "expression": "Cantabile"
+            },
+            {
+              "id": "pmv91b5oi-4",
+              "pitches": [
+                50
+              ],
+              "duration": 0.3333333333333333,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1,
+              "tuplet": {
+                "actual": 3,
+                "normal": 2,
+                "group": "demo-triplet"
+              }
+            },
+            {
+              "id": "pmv91b5oi-5",
+              "pitches": [
+                52
+              ],
+              "duration": 0.3333333333333333,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1,
+              "tuplet": {
+                "actual": 3,
+                "normal": 2,
+                "group": "demo-triplet"
+              }
+            },
+            {
+              "id": "pmv91b5oi-6",
+              "pitches": [
+                55
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-7",
+              "pitches": [
+                52
+              ],
+              "duration": 2,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-8",
+              "pitches": [
+                50
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-9",
+              "pitches": [
+                53
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-a",
+              "pitches": [
+                52
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-b",
+              "pitches": [
+                48
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-c",
+              "pitches": [
+                55
+              ],
+              "duration": 2,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-d",
+              "pitches": [
+                52
+              ],
+              "duration": 2,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-e",
+              "pitches": [
+                48
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pmv91b5o5-1",
+      "name": "Piano",
+      "clef": "treble",
+      "program": 0,
+      "volume": 0.8,
+      "muted": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-f",
+              "pitches": [
+                60
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-g",
+              "pitches": [
+                64
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-h",
+              "pitches": [
+                67
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-i",
+              "pitches": [
+                64
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-j",
+              "pitches": [
+                72
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 2
+            },
+            {
+              "id": "pmv91b5oi-k",
+              "pitches": [
+                55
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 3
+            },
+            {
+              "id": "pmv91b5oi-l",
+              "pitches": [
+                48
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 4
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-m",
+              "pitches": [
+                61
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-n",
+              "pitches": [
+                65
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-o",
+              "pitches": [
+                68
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-p",
+              "pitches": [
+                65
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-q",
+              "pitches": [
+                71
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 2
+            },
+            {
+              "id": "pmv91b5oi-r",
+              "pitches": [
+                56
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 3
+            },
+            {
+              "id": "pmv91b5oi-s",
+              "pitches": [
+                49
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 4
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-t",
+              "pitches": [
+                62
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-u",
+              "pitches": [
+                66
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-v",
+              "pitches": [
+                69
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-w",
+              "pitches": [
+                66
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-x",
+              "pitches": [
+                70
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 2
+            },
+            {
+              "id": "pmv91b5oi-y",
+              "pitches": [
+                57
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 3
+            },
+            {
+              "id": "pmv91b5oi-z",
+              "pitches": [
+                50
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 4
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-10",
+              "pitches": [
+                63
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-11",
+              "pitches": [
+                67
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-12",
+              "pitches": [
+                70
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-13",
+              "pitches": [
+                67
+              ],
+              "duration": 1,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            },
+            {
+              "id": "pmv91b5oi-14",
+              "pitches": [
+                69
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 2
+            },
+            {
+              "id": "pmv91b5oi-15",
+              "pitches": [
+                58
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 3
+            },
+            {
+              "id": "pmv91b5oi-16",
+              "pitches": [
+                51
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pmv91b5o5-2",
+      "name": "Piano · Mano izquierda",
+      "clef": "treble",
+      "program": 0,
+      "volume": 0.8,
+      "muted": false,
+      "measures": [
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-17",
+              "pitches": [
+                36,
+                43
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-18",
+              "pitches": [
+                38,
+                45
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "pmv91b5oi-19",
+              "pitches": [
+                43,
+                50
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ]
+        },
+        {
+          "notes": [
+            {
+              "id": "5ff62cb1-bf7c-4688-8093-5ebe9e31ebc7",
+              "pitches": [
+                43,
+                50
+              ],
+              "duration": 4,
+              "rest": false,
+              "dots": 0,
+              "lyric": "",
+              "chord": "",
+              "dynamic": "",
+              "articulation": "",
+              "tie": false,
+              "layer": 1
+            }
+          ],
+          "mirrorOf": {
+            "partId": "pmv91b5o5-2",
+            "measure": 2
+          }
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "perLine": 2,
+    "staffGap": 140,
+    "pageScale": 1
+  },
+  "brackets": [
+    {
+      "id": "piano-group",
+      "start": 1,
+      "end": 2,
+      "type": "brace"
+    }
+  ],
+  "smartShapes": [
+    {
+      "id": "demo-shape",
+      "type": "crescendo",
+      "partId": "21fb01fb-efb3-4873-98c5-2c09c1880bcb",
+      "startNoteId": "pmv91b5oi-3",
+      "endNoteId": "pmv91b5oi-7"
+    }
+  ]
+}
