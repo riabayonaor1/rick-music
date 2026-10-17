@@ -23,6 +23,59 @@ const engines = [['Chromium', chromium]];
 if (process.env.TEST_WEBKIT === '1') engines.push(['WebKit', webkit]);
 let checks = 0;
 const check = (value, message) => { assert.ok(value, message); checks++; };
+
+// Observe the actual browser audio graph without replacing its APIs or output.
+// A parallel, muted branch keeps the analyser processing while notes stop.
+function installAudioProbe() {
+  const probes = [], byContext = new WeakMap();
+  const connect = AudioNode.prototype.connect;
+  AudioNode.prototype.connect = function(destination, ...args) {
+    const result = connect.call(this, destination, ...args);
+    const probe = byContext.get(this.context);
+    if (probe && destination === this.context.destination) {
+      connect.call(this, probe.analyser, args[0] ?? 0, 0);
+    }
+    return result;
+  };
+  const wrappers = new Map();
+  for (const name of ['AudioContext', 'webkitAudioContext']) {
+    const NativeContext = window[name];
+    if (!NativeContext) continue;
+    if (!wrappers.has(NativeContext)) {
+      wrappers.set(NativeContext, new Proxy(NativeContext, {
+        construct(target, args) {
+          const sessionTypeAtCreation = navigator.audioSession?.type ?? null;
+          const context = Reflect.construct(target, args);
+          const analyser = context.createAnalyser(), mute = context.createGain();
+          analyser.fftSize = 2048;
+          mute.gain.value = 0;
+          connect.call(analyser, mute);
+          connect.call(mute, context.destination);
+          const probe = {context, analyser, samples:new Float32Array(analyser.fftSize), sessionTypeAtCreation};
+          byContext.set(context, probe);
+          probes.push(probe);
+          return context;
+        }
+      }));
+    }
+    window[name] = wrappers.get(NativeContext);
+  }
+  window.__audioProbe = {
+    sample() {
+      const probe = probes.at(-1);
+      if (!probe) return {state:null, rms:0, contexts:0};
+      probe.analyser.getFloatTimeDomainData(probe.samples);
+      const rms = Math.sqrt(probe.samples.reduce((sum, value) => sum + value * value, 0) / probe.samples.length);
+      return {
+        state:probe.context.state, rms, contexts:probes.length,
+        hasAudioSession:!!navigator.audioSession,
+        sessionType:navigator.audioSession?.type ?? null,
+        sessionTypesAtCreation:probes.map(item => item.sessionTypeAtCreation)
+      };
+    }
+  };
+}
+
 try {
   for (const [name, engine] of engines) {
     const browser = await engine.launch({headless:true, ...(name === 'Chromium' && process.env.CHROMIUM_PATH ? {executablePath:process.env.CHROMIUM_PATH} : {})});
@@ -30,6 +83,7 @@ try {
       for (const [width, height] of [[320,640],[390,844],[844,390],[768,1024],[1440,900]]) {
         const mobile = width <= 900;
         const context = await browser.newContext({viewport:{width,height}, isMobile:mobile, hasTouch:mobile, acceptDownloads:true});
+        await context.addInitScript(installAudioProbe);
         const page = await context.newPage();
         page.setDefaultTimeout(15000);
         const errors = [];
@@ -123,8 +177,20 @@ try {
           await activate('#play');
           await page.waitForFunction(() => document.getElementById('play').textContent.includes('Detener'));
           check(await page.locator('#status').textContent() === 'Reproducción con síntesis local', 'Browser audio starts');
+          await page.waitForFunction(() => {
+            const audio = window.__audioProbe.sample();
+            return audio.state === 'running' && audio.rms > 1e-4;
+          });
+          const audio = await page.evaluate(() => window.__audioProbe.sample());
+          check(audio.contexts > 0 && audio.state === 'running' && audio.rms > 1e-4, 'Playback generates a nonzero audio signal');
+          if (audio.hasAudioSession) {
+            check(audio.sessionType === 'playback', 'Real audio session uses music playback');
+            check(audio.sessionTypesAtCreation.every(type => type === 'playback'), 'Playback session is configured before creating audio contexts');
+          }
           await activate('#stop');
           check((await page.locator('#play').textContent()).includes('Reproducir'), 'Browser audio stops');
+          await page.waitForFunction(() => window.__audioProbe.sample().rms < 1e-5);
+          check((await page.evaluate(() => window.__audioProbe.sample())).rms < 1e-5, 'Stopping playback silences the actual audio signal');
 
           const pending = page.waitForEvent('download');
           console.log(`  ${name} ${width}: MP3`);

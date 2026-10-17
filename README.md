@@ -34,7 +34,7 @@ Hay ejemplos de documentos y formatos de intercambio en [`Ejemplos/`](Ejemplos/)
 
 ## Alcance de la edición web
 
-La reproducción utiliza sonido sintetizado localmente y timbres aproximados. La aplicación nativa de macOS usa otro motor de audio; sus timbres y funciones del sistema no se trasladan al navegador.
+La reproducción utiliza sonido sintetizado localmente y timbres aproximados. En Safari para iPhone se solicita el modo de reproducción musical para que el interruptor de silencio no silencie la partitura. Si el navegador no admite esa opción, desactiva el modo silencio; comprueba también el volumen multimedia y la salida de audio seleccionada. La aplicación nativa de macOS usa otro motor de audio; sus timbres y funciones del sistema no se trasladan al navegador.
 
 La entrada desde un teclado MIDI externo depende de que el navegador implemente **Web MIDI**, del dispositivo conectado y del permiso concedido. La introducción con el teclado en pantalla y A–G sigue disponible. HyperScribe y Transcripción convierten una interpretación de notas en notación; no transcriben grabaciones acústicas.
 

@@ -804,6 +804,13 @@ function editPart(pi) {
   }), p.name);
 }
 function getAudio() {
+  // Web Audio defaults to ambient on iOS and is then muted by the Silent switch.
+  // Request the music playback category before creating or resuming the context.
+  try {
+    if (navigator.audioSession) navigator.audioSession.type = 'playback';
+  } catch {
+    // Browsers without a writable Audio Session API keep their normal Web Audio path.
+  }
   if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
   if (audio.state === "suspended") audio.resume();
   return audio;

@@ -53095,6 +53095,10 @@ bitsperframe:             %d
     }), p.name);
   }
   function getAudio() {
+    try {
+      if (navigator.audioSession) navigator.audioSession.type = "playback";
+    } catch {
+    }
     if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
     if (audio.state === "suspended") audio.resume();
     return audio;
